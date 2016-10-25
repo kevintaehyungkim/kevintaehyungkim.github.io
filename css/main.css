@@ -1,11 +1,12 @@
 body {
-	font-family:Arial, Verdana, sans-serif;
+	font-family:Calibri, sans-serif;
 }
 
 h1, h2 {
 	color: #123B83;
 }
 
+
 /*p {
-	color: #1b4fa9;
+	max-width: 600px;
 }*/
