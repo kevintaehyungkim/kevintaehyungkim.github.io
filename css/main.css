@@ -1,11 +1,11 @@
 body {
 	font-family:Calibri, sans-serif;
+	line-height: 20px;
 }
 
 h1, h2 {
 	color: #123B83;
 }
-
 
 /*p {
 	max-width: 600px;
