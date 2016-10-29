@@ -1,12 +1,54 @@
 body {
-	font-family:Calibri, sans-serif;
-	line-height: 20px;
+	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+    font-family: 'Droid Sans', serif;
+    font-weight: 100;
+	width: 100%;
+	margin: auto;
 }
 
-h1, h2 {
-	color: #123B83;
+h1 {
+	color: #0048AA;
+	font-size: 40px;
 }
 
-/*p {
-	max-width: 600px;
-}*/
+h2, h3{
+	color: #417DD6;
+}
+
+p {
+	color: black;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	top = 0;
+/*	background: purple;*/
+	width: 100%;
+	position: fixed;
+}
+
+.logo {
+	float: left;
+	font-family: 'Droid Sans', serif;
+	color: #0048AA;
+	font-size: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+}
+
+.nav {
+	float: right;
+}
