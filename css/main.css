@@ -6,10 +6,13 @@ body {
     font-weight: 100;
 	width: 100%;
 	margin: auto;
+
+/*	background:url(../images/berkeley2.jpg) no-repeat center center fixed;
+	background-size: cover;*/
 }
 
 h1 {
-	color: #0048AA;
+	color: #434D7B;
 	font-size: 40px;
 }
 
@@ -26,7 +29,7 @@ p {
 	width: 100%;
 	position: fixed;
 	margin-right: 500px;
-	background: #417DD6;
+	background: #434D7B;
 	height: 47px;
 }
 
@@ -36,7 +39,7 @@ a {
 }
 
 b {
-	color: #0048AA;
+	color: #417DD6;
 }
 
 .resume a {
@@ -52,7 +55,7 @@ b {
 .nav li {
 	list-style: none;
 	float: left;
-	margin-left: 13%;
+	margin-left: 5%;
 }
 
 .nav {
@@ -60,6 +63,25 @@ b {
 	float: right;
 /*	margin-right: 10%;*/
 }
+
+/*.content:before{
+   content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  
+  display: block;
+  background-image: url(../images/berkeley6.jpg);
+  width: 100%;
+  height: 100%;
+  
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}*/
 
 .content {
 	width: 55%;
