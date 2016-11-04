@@ -6,9 +6,6 @@ body {
     font-weight: 100;
 	width: 100%;
 	margin: auto;
-
-/*	background:url(../images/berkeley2.jpg) no-repeat center center fixed;
-	background-size: cover;*/
 }
 
 h1 {
@@ -39,7 +36,7 @@ a {
 }
 
 b {
-	color: #417DD6;
+	color: #FA8B1C;
 }
 
 .resume a {
