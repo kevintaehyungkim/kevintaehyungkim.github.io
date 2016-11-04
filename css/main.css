@@ -26,11 +26,20 @@ p {
 	width: 100%;
 	position: fixed;
 	margin-right: 500px;
-	background: white;
+	background: #417DD6;
 	height: 47px;
 }
 
 a {
+	text-decoration: none;
+	color: white;
+}
+
+b {
+	color: #0048AA;
+}
+
+.resume a {
 	text-decoration: none;
 	color: #FB1D5E;
 }
@@ -38,13 +47,13 @@ a {
 .nav li {
 	list-style: none;
 	float: left;
-	margin-left: 250px;
+	margin-left: 13%;
 }
 
 .nav {
 	width: 100%;
 	float: right;
-	margin-right: 100px;
+/*	margin-right: 10%;*/
 }
 
 .content {
