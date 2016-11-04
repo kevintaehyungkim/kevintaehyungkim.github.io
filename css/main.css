@@ -44,6 +44,11 @@ b {
 	color: #FB1D5E;
 }
 
+.contact a{
+	text-decoration: none;
+	color: #FB1D5E;
+}
+
 .nav li {
 	list-style: none;
 	float: left;
