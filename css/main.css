@@ -13,8 +13,12 @@ h1 {
 	font-size: 40px;
 }
 
-h2, h3{
+h2, h3 {
 	color: #434D7B;
+}
+
+.mycaption h3 {
+	color: #FA8B1C;
 }
 
 p {
@@ -36,7 +40,7 @@ a {
 }
 
 b {
-	color: #FA8B1C;
+	color: #FB1D5E;
 }
 
 .resume a {
@@ -60,8 +64,8 @@ b {
 	float: right;
 /*	margin-right: 10%;*/
 }
-
-/*.content:before{
+/*
+.content:before{
    content: "";
   position: fixed;
   left: 0;
