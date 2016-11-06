@@ -1,8 +1,8 @@
 /*main.css*/
 
 body {
-	src: local('Droid Sans'), url(http://fonts.googleapis.com/css?family=Droid+Sans);
-    font-family: 'Droid Sans', serif;
+	src: local('Open Sans'), url(https://fonts.googleapis.com/css?family=Open+Sans);
+    font-family: 'Open Sans', serif;
     font-weight: 100;
 	width: 100%;
 	margin: auto;
