@@ -6,15 +6,24 @@ body {
     font-weight: 100;
 	width: 100%;
 	margin: auto;
+	/*background-color*/
+	/*background: url(../images/berkeleycampus.jpg) no-repeat center center fixed;;*/
+	/*background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/berkeleycampus.jpg) no-repeat center center fixed;
+	background-size: cover;
+	position: absoluteurl(../images/berkeleycampus.jpg) no-repeat center center fixed;;*/
 }
 
 h1 {
-	color: #434D7B;
+	color: #3D82C6;
 	font-size: 40px;
 }
 
 h2, h3 {
-	color: #434D7B;
+	color: #3D82C6;
 }
 
 .mycaption h3 {
@@ -25,22 +34,13 @@ p {
 	color: black;
 }
 
-.header {
-	top = 0;
-	width: 100%;
-	position: fixed;
-	margin-right: 500px;
-	background: #434D7B;
-	height: 47px;
-}
-
 a {
 	text-decoration: none;
 	color: white;
 }
 
 b {
-	color: #FB1D5E;
+	color: #FA8B1C;
 }
 
 .resume a {
@@ -53,19 +53,30 @@ b {
 	color: #FB1D5E;
 }
 
+.header {
+	/*width: 100%;
+*/	/*position: fixed;*/
+	/*margin-right: 500px;*/
+	background: #3D82C6;
+	height: 50px;
+	width: 100%;
+    position:fixed;
+    z-index: 1;
+/*	top: 0px;*/
+	/*position:fixed;
+*/}
+
 .nav li {
 	list-style: none;
 	float: left;
-	margin-left: 5%;
+	margin-left: 50px; /*spacing for navigation*/
 }
 
 .nav {
-	width: 100%;
-	float: right;
-/*	margin-right: 10%;*/
+	float: left;
 }
-/*
-.content:before{
+
+/*.content:before{
    content: "";
   position: fixed;
   left: 0;
@@ -73,18 +84,46 @@ b {
   z-index: -1;
   
   display: block;
-  background-image: url(../images/berkeley6.jpg);
+  background-image: url(../images/berkeleycampus.jpg);
+  background-size: cover;
   width: 100%;
   height: 100%;
   
-  -webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  -o-filter: blur(10px);
-  -ms-filter: blur(10px);
-  filter: blur(10px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
 }*/
 
 .content {
-	width: 55%;
-	margin: 0 auto;
+	top: 5%;
+	position: absolute;
+	width: 850px;
+	margin-left: 100px;
+/*	margin-right: 900px;*/
+/*	background-size: cover;
+	background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/berkeleycampus.jpg);*/
+}
+
+.hometext {
+	/*margin-left: 200px;
+*/	width: 400px;
+}
+
+.hometitle {
+	margin-left: 300px;
+}
+
+.homepic {
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	/*-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;*/
 }
