@@ -6,7 +6,7 @@ body {
     font-weight: 100;
 	width: 100%;
 	margin: auto;
-	background-color: #FFFFF0;
+	background-color: #F5FFFF;
 }
 
 h1 {
@@ -36,7 +36,7 @@ a {
 }
 
 a:hover{
-	color: #FA8B1C;
+	color: #C8EFCB;
 }
 
 b {
