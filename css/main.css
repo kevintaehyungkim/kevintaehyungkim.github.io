@@ -6,12 +6,13 @@ body {
     font-weight: 100;
 	width: 100%;
 	margin: auto;
-	background-color: #F5FFFF;
+	/*background-color: #F9FFFF;*/
+	background-color: #F6F8F7;
 }
 
 h1 {
-	color: #3D82C6;
-	font-size: 40px;
+	color: #3C3C3C;
+	font-size: 45px;
 }
 
 h3 {
@@ -23,11 +24,11 @@ h2 {
 }
 
 .mycaption h3 {
-	color: #FA8B1C;
+	color: #F89307;
 }
 
 p {
-	color: #787878;
+	color: #3C3C3C;
 }
 
 a {
@@ -45,6 +46,7 @@ b {
 
 li {
 	color: #787878;
+	font-size: 14px;
 }
 
 .resume a {
@@ -62,7 +64,7 @@ li {
 }
 
 .header {
-	background: #3D82C6;
+	background: #242E3F;
 	height: 50px;
 	width: 100%;
     position:fixed;
