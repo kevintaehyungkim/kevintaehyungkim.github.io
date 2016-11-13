@@ -7,7 +7,7 @@ body {
 	width: 100%;
 	margin: auto;
 	/*background-color: #F9FFFF;*/
-	background-color: #F6F8F7;
+	background-color: white;
 }
 
 h1 {
@@ -33,11 +33,11 @@ p {
 
 a {
 	text-decoration: none;
-	color: white;
+	color: #C8EFCB;
 }
 
 a:hover{
-	color: #C8EFCB;
+	color: #67C549;
 }
 
 b {
@@ -64,7 +64,7 @@ li {
 }
 
 .header {
-	background: #242E3F;
+	background: #1E2837;
 	height: 50px;
 	width: 100%;
     position:fixed;
