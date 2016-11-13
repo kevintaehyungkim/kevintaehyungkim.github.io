@@ -6,17 +6,17 @@ body {
     font-weight: 100;
 	width: 100%;
 	margin: auto;
-	/*background-color: #F9FFFF;*/
+/*	background-image: url("../images/green_eng.jpg");*/
 	background-color: white;
 }
 
 h1 {
-	color: #3C3C3C;
-	font-size: 45px;
+	color: white;
+	font-size: 50px;
 }
 
 h3 {
-	color: #3D82C6;
+	color: #6F9FD2;
 }
 
 h2 {
@@ -24,7 +24,7 @@ h2 {
 }
 
 .mycaption h3 {
-	color: #F89307;
+	color: #6F9FD2;
 }
 
 p {
@@ -33,7 +33,7 @@ p {
 
 a {
 	text-decoration: none;
-	color: #C8EFCB;
+	color: #6F9FD2;
 }
 
 a:hover{
@@ -51,7 +51,7 @@ li {
 
 .resume a {
 	text-decoration: none;
-	color: #FB1D5E;
+	color: white;
 }
 
 .resume a:hover {
@@ -64,7 +64,7 @@ li {
 }
 
 .header {
-	background: #1E2837;
+	background: white;
 	height: 50px;
 	width: 100%;
     position:fixed;
@@ -115,3 +115,11 @@ li {
 .helloworld {
 	font-size: 28px;
 }
+
+.image {
+   top: 2.5%;
+   height: 209px;
+   /*width:100%;*/
+   position: absolute;
+   content:url("../images/bluegears2.png");
+}​
