@@ -64,16 +64,33 @@ li {
 
 .header {
 	background: white;
-	height: 50px;
+	height: 35px;
 	width: 100%;
     position:fixed;
     z-index: 1;
 }
 
-.nav li {
+.nav th {
 	list-style: none;
 	float: left;
-	margin-left: 50px; /*spacing for navigation*/
+	/*margin-left: 50px; spacing for navigation*/
+	font-size: 14px;
+	font-weight: 100;
+	padding: 0;
+}
+
+.nav td {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.nav table {
+	 border: none;
+	 border-collapse: collapse;
+}
+
+.nav a {
+	font-size: 14px;
 }
 
 .nav {
@@ -81,7 +98,7 @@ li {
 }
 
 .content {
-	top: 5%;
+	top: 20px;
 	position: absolute;
 	width: 850px;
 	margin-left: 100px;
@@ -116,7 +133,6 @@ li {
 }
 
 .image {
-   top: 4.2%;
 /*   height: 209px;*/
    /*width:100%;*/
    position: absolute;
