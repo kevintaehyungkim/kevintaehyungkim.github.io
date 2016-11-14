@@ -15,7 +15,7 @@ h1 {
 }
 
 h3 {
-	color: #6F9FD2;
+	color: #195BAE;
 }
 
 h2 {
@@ -32,7 +32,7 @@ p {
 
 a {
 	text-decoration: none;
-	color: #6F9FD2;
+	color: #195BAE;
 }
 
 a:hover{
@@ -40,7 +40,7 @@ a:hover{
 }
 
 b {
-	color: #FA8B1C;
+	color: #195BAE;
 }
 
 li {
@@ -73,7 +73,6 @@ li {
 .nav th {
 	list-style: none;
 	float: left;
-	/*margin-left: 50px; spacing for navigation*/
 	font-size: 14px;
 	font-weight: 100;
 	padding: 0;
@@ -120,12 +119,12 @@ li {
 }
 
 .dates p {
-	color: #FA8B1C;
+	color: red;
 	line-height: 0%;
 }
 
 .languages p{
-	color: #FA8B1C;
+	color: red;
 	line-height: 0%;
 }
 .helloworld {
