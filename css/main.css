@@ -3,7 +3,7 @@
 body {
 	src: local('Open Sans'), url(https://fonts.googleapis.com/css?family=Open+Sans);
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
 	width: 100%;
 	margin: auto;
 	background-color: white;
