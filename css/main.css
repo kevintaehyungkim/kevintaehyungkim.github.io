@@ -116,8 +116,8 @@ li {
 }
 
 .image {
-/*   top: 2.5%;*/
-   height: 209px;
+   top: 3.5%;
+/*   height: 209px;*/
    /*width:100%;*/
    position: absolute;
    content:url("../images/bluegears2.png");
