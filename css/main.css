@@ -14,9 +14,9 @@ body {
 
 /* Glyph, by Harry Roberts */
 
-hr {
+/*hr {
     border-top: 3px double #8c8b8b;
-}
+}*/
 
 h1 {
 	color: black;
@@ -110,7 +110,7 @@ li {
 }
 
 .content {
-	top: 50px;
+	top: 60px;
 	position: absolute;
 	width: 850px;
 	margin-left: 100px;
