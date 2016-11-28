@@ -20,7 +20,7 @@ body {
 
 h1 {
 	color: black;
-	font-size: 50px;
+	font-size: 40px;
 	line-height: 50%;
 }
 
@@ -75,9 +75,13 @@ li {
 	text-decoration: underline;
 }
 
-.contact a{
+.contact a {
 	text-decoration: none;
 	color: #FB1D5E;
+}
+
+.contact a:hover {
+	text-decoration: underline;
 }
 
 .header {
@@ -175,12 +179,12 @@ li {
 }
 
 .dates p {
-	color: #25A8C5;
+	color: #3060B5;
 	line-height: 0%;
 }
 
 .languages p{
-	color: #25A8C5;
+	color: #3060B5;
 	line-height: 0%;
 }
 .helloworld {
