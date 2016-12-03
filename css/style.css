@@ -1,0 +1,316 @@
+/*
+Theme Name: Simple Parallax Website
+Description: Simple Parallax Scrolling Effect
+Author: Samuel Dalusung
+*/
+
+/*= GENERAL STYLING
+--------------------------------------------------------*/
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h1 { 
+    font-family:"Arvo";
+	font-weight:lighter;
+	font-size: 70px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	line-height: 150%;
+}
+
+h2 {
+   font-family:"Arvo";
+   font-weight: lighter;
+   font-size: 30px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   line-height: 150%;
+}
+
+h3 {
+    font-family: "Arvo";
+    font-weight: lighter;
+    font-size: 16px;
+	margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	line-height: 150%;
+}
+
+h4 {
+    font-family: "Arvo";
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	line-height: 150%;
+}
+
+p {
+	font-family: "Arvo";
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	line-height: 150%;
+}
+
+ul {
+    font-family: "Arvo";
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 5px 18px;
+	padding: 0;
+	z-index: 1;	
+	line-height: 140%;
+}
+
+tr {
+    font-family: "Arvo";
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px 0;
+	padding: 0;
+}
+
+hr {
+	border-top: 0px;
+	height: 2px;
+    /* Set the hr color */
+}
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 900px; }
+.clear { clear: both; }
+a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
+a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
+
+a.lpanel:hover{ color: #fff; }
+a.rpanel:hover{ color: #fff; }
+/*= HEADER & NAVIGATION
+--------------------------------------------------------*/
+
+#header { 
+	width: 100%; 
+	height: 60px; 	
+	position: fixed;
+	margin-top: 0px;
+	background-color: black;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#nav { width:800px; float: right; margin-top: 12px; }
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: lighter; }
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+}
+
+#nav li{
+	margin-top: 9px;	
+	float: left;
+	padding-left: 35px;
+}
+
+#nav li a { color: white; font-size: 16px; text-decoration: none; font-family: 'Arvo'; }
+#nav li a.active { color: white; opacity:1; border-bottom: 2px ; text-decoration: none}
+#nav li a:hover { color: #D5F7FF; opacity:1; }
+
+
+/*= BUTTONS
+--------------------------------------------------------*/
+
+button.btn-know { 
+	padding: 15px 47px; 
+	margin: 40px 38.8%;
+	text-align: center;
+	border: 4px solid #fff; 
+	color: #fff; 
+	background: transparent; 
+	font-size: 19px;
+	cursor: pointer;
+	text-shadow: -1px 2px 0px rgba(90, 90, 90, 0.56);
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.btn-know:hover { background: #fff; color: transparent; }
+ul.built { list-style: none; margin: 0 auto; width: 730px; }
+.built li img{ float: left; padding-right: 34px; }
+
+
+
+/*= SLIDES STYLING
+--------------------------------------------------------*/
+
+#slide1, #slide2{ width: 100%; }
+
+#slide1{
+	background:url('../img/sf.png') 10% 0 no-repeat;
+	color: #fff;
+	height: 500px;
+	width: 100%;
+	margin: 0;
+	padding: 150px 0 260px 0;
+	background-size: cover;
+}
+
+#slide1 h2{
+	text-align: center;
+}
+
+#education {
+	background:url('../img/yellowpaper1.jpg') 20% 0 no-repeat;
+	background-size: cover;
+	/*background-color: #fff;*/
+	color: #333333;
+	height: 1600px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 90px 0;
+/*	text-align: left;*/
+}
+
+#logoedu {
+	margin-left: 230px;
+}
+
+#education h1, h2 {
+	text-align: left;
+}
+
+#education hr {
+	color: black; /* old IE */
+    background-color: black; /* Modern Browsers */
+}
+
+#experience {
+	background:url('../img/network.png') 20% 0 no-repeat;
+	background-size: cover;
+	color: #fff;
+	height: 1050px;
+	padding: 90px 0 0 0;	
+	background-size: cover;
+}
+
+#experience h1, h2 {
+	text-align: left;
+}
+
+#logoexperience {
+	margin-left: 215px;
+}
+
+#titleexperience {
+	margin-left: 330px;
+}
+
+#experience hr {
+	color: white; /* old IE */
+    background-color: white; /* Modern Browsers */
+}
+
+#projects {
+	background-color: #0C233F;
+	/*background:url('../img/night2.jpg') 20% 0 no-repeat;
+	background-size: cover;*/
+	color: white;
+	height: 3800px;
+	padding: 90px 0;
+}
+
+#projects h1, h2 {
+	text-align: left;
+}
+
+#projects a {
+	color: yellow;
+	font-weight: lighter;
+}
+
+#logoprojects {
+	margin-left: 230px;
+}
+
+#titleprojects {
+	margin-left: 330px;
+}
+
+#projects hr {
+	color: white; /* old IE */
+    background-color: white; /* Modern Browsers */
+}
+
+#projects a { color: yellow; font-size: 24px; text-decoration: none; font-family: 'Arvo'; }
+#projects a:hover { color: yellow; opacity:1; text-decoration: underline;}
+
+#extracurriculars{
+	background:url('../img/green.png') 20% 0 no-repeat;
+	background-size: cover;
+	height: 3200px;
+	margin: 0 auto;
+	padding: 90px 0;
+	color: white;
+}
+
+#extracurriculars h1, h2 {
+	text-align: left;
+}
+
+#logoextracurriculars {
+	margin-left: 110px;
+}
+
+#titleextracurriculars {
+	margin-left: 210px;
+}
+
+#extracurriculars hr {
+	color: white; /* old IE */
+    background-color: white; /* Modern Browsers */
+}
+
+#contact{
+	background:url('../img/city.png') 100% 0 no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 90px 0;
+	color: black;
+}
+
+#contact hr {
+	color: black; /* old IE */
+    background-color: black; /* Modern Browsers */
+}
+
+#contact h1, h2 {
+	text-align: left;
+}
+
+#logocontact {
+	margin-left: 255px;
+}
+
+#titlecontact {
+	margin-left: 375px;
+}
+
+
+/*= FOOTER 
+--------------------------------------------------------*/
+
+#copyright  { color: #fff; font-family:"Wellfleet";  font-size: 14px; margin-top: 100px; text-align: center;  }
+#copyright  a { text-decoration: none; color: #fff;  }

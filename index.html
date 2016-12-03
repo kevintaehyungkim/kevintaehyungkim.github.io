@@ -1,63 +1,532 @@
-<html>
-	<head>
-		<title>Kevin Taehyung Kim</title>
-		<link href="css/main.css" type="text/css" rel="stylesheet" />
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
-	</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Taehyung (Kevin) Kim</title>
+       <link rel="stylesheet" href="css/style.css"/>
+	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+       <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>	
+	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	<script>
+   
+<!----- JQUERY FOR SLIDING NAVIGATION --->   
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
 
-	<body>
-		<div class="header">
-				<div class="nav">
-					<table cellspacing="0" cellpadding="0">
-						<tr>
-							<td WIDTH="130" HEIGHT="35" bgcolor="white"><a href="index.html" style="color: #668cff">Home</a></td>
-							<td WIDTH="130" HEIGHT="35" bgcolor="white"><a href="education.html">Education</a></td>
-							<td WIDTH="130" HEIGHT="35" bgcolor="white"><a href="experience.html">Experience</a></td>
-							<td WIDTH="130" HEIGHT="35" bgcolor="white"><a href="projects.html">Projects</a></td>
-							<td WIDTH="130" HEIGHT="35" bgcolor="white"><a href="extracurriculars.html">Extracurriculars</a></td>
-							<td WIDTH="130" HEIGHT="35" bgcolor="white"><a href="contact.html">Contact</a></td>
-							<th colspan="5"></th>
-						</tr>
-					</table>
-				</div>
-			</div>
-		</div>
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
 
-		<div class="image">
-		</div>
+});
 
+
+</script>
+
+
+ </head> 
+	
+<body>
+  
+<header id="header">
+<div class="content">
+
+<nav id="nav">
+	<ul>
+		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
+		<li><a href="#education" title="Next Section">Education</a></li>
+		<li><a href="#experience" title="Next Section">Experience</a></li>
+		<li><a href="#projects" title="Next Section">Projects</a></li>
+		<li><a href="#extracurriculars" title="Next Section">Extracurriculars</a></li>
+		<li><a href="#contact" title="Next Section">Contact</a></li>
+	</ul>
+</nav>
+</div>
+</header>	
+
+	
+	<div id="slide1">
 		<div class="content">
-			<h1>Taehyung (Kevin) Kim</h1>
-			<hr>
-			<div class="mycaption" content="../images/bluegears2.png">
-				<h3>Software Engineer and Aspiring Entrepreneur</h3>
+            <h1>Taehyung (Kevin) Kim</h1>
+		    <h2>Software Engineer and Aspiring Entrepreneur</h2>
+		</div> 
+    </div> 
+
+	<div id="education">
+		<div class="content">
+			<div id="logoedu">
+				<img src="img/apple.png" width=100px fixed align="left"/>
 			</div>
-			
-			<div class="resume">
-					<div class="mycaption">
-						<p><a href="resume.pdf" target="_blank" style="color: #FB1D5E">Here</a> you can find a copy of my resume in pdf form!</p>
+			<h1>Education</h1>
+				<hr>
+
+				<br>
+
+				<img src="img/berkeleyseal.png" width=220px fixed align="right"/>
+				<h2>University of California, Berkeley</h2>
+				<h3><strong>B.S. Electrical Engineering & Computer Science (EECS), 2018</strong></h3>
+				
+				<br>
+
+				<h3><b>Technical Coursework:</b></h3>
+				<ul>
+					<li>CS 61A: Structure of Computer Programs</li>
+					<li>CS 61B: Data Structures</li>
+					<li>CS 61C: Computer Architecture and Machine Structures</li>
+					<li>CS 70: Discrete Mathematics and Probability Theory</li>
+					<li>CS 168: Internet Architecture and Protocols</li>
+					<li>CS 170: Efficient Algorithms and Intractable Problems</li>
+					<li>EE 16A: Designing Information Devices and Systems I</li>
+				</ul>
+
+				<br>
+
+				<h3><b>Relevant Coursework:</b></h3>
+				<ul>
+					<li>MATH 53: Multivariable Calculus</li>
+					<li>MATH 54: Linear Algebra and Differential Equations</li>
+					<li>CHEM 1A: General Chemistry</li>
+					<li>CHEM 3A: Chemical Structure and Reactivity</li>
+					<li>BIOE 10:Introduction to Biomedicine for Engineers</li>
+				</ul>
+
+				<br>
+				
+				<h3><b>Skills:</b> </h3>
+				<table>
+			      <thead>
+			        <tr>
+			          <th bgcolor="#25A8C5"><font color="white">Frontend</font></th>
+			          <th bgcolor="#25A8C5"><font color="white">Backend</font></th>
+			          <th bgcolor="#3D82C6"><font color="white">Mobile</font></th>
+			          <th bgcolor="#3D82C6"><font color="white">Design</font></th>
+			          <th colspan="3"></th>
+			        </tr>
+					<div class="skills">
+				        <tr>
+				          <th WIDTH="200"><font size=2>HTML5</th>
+				          <th WIDTH="200"><font size=2>Java</th>
+				          <th WIDTH="200"><font size=2>iOS (Swift, Objective-C)</th>
+				          <th WIDTH="200"><font size=2>Photoshop</th>
+				          <th colspan="3"></th>
+				        </tr>
+
+				        <tr>
+				          <th WIDTH="200"><font size=2>CSS3</th>
+				          <th WIDTH="200"><font size=2>Python</th>
+				          <th WIDTH="200"><font size=2>Android (Java)</th>
+				          <th WIDTH="200"><font size=2>Illustrator</th>
+				          <th colspan="3"></th>
+				        </tr>
+
+				        <tr>
+				          <th WIDTH="200"><font size=2>Javascript</th>
+				          <th WIDTH="200"><font size=2>C/C++</th>
+				          <th WIDTH="200"></th>
+				          <th WIDTH="200"><font size=2>PaintCode</th>
+				          <th colspan="3"></th>
+				        </tr>
+
+				        <tr>
+				          <th WIDTH="200"><font size=2>jQuery</th>
+				          <th WIDTH="200"><font size=2>MySQL</th>
+				          <th WIDTH="200"></th>
+				          <th WIDTH="200"></th>
+				          <th colspan="3"></th>
+				        </tr>
+
+				        <tr>
+				          <th WIDTH="200"><font size=2>Bootstrap</th>
+				          <th WIDTH="200"><font size=2>Ruby on Rails</th>
+				          <th WIDTH="200"></th>
+				          <th WIDTH="200"></th>
+				          <th colspan="3"></th>
+				        </tr>
+
+				        <tr>
+				          <th WIDTH="200"><font size=2>Angular JS</th>
+				          <th WIDTH="200"></th>
+				          <th WIDTH="200"></th>
+				          <th WIDTH="200"></th>
+				          <th colspan="3"></th>
+				        </tr>
+				    </div>
+	    		</table>
+
+				<br>
+				<br>
+
+				<img src="img/uclaseal.png" width=220px fixed align="right"/>
+					<h2>University of California, Los Angeles</h2>
+					<h3><strong>Stem Cell Summer Institute, 2013</strong></h3>
+					<div class="eduUCLADescription">
+						<p>Explored the developmental biology of stem cells in mice and humans, and overviewed the important functional differences between embryonic, hematopoietic, and adult stem cells as well as the differences in their biomedical potentials.</p>
+					</div>
+
+					<br>
+
+					<h3><b>Technical Coursework:</h3> 
+					<ul>
+						<li>Molecular, Cell, and Developmental Biology 50</li>
+					</ul>
+					</p>
+				
+				<br>
+				<br>
+
+				<img src="img/uciseal.png" width=220px fixed align="right"/>
+				<div class="eduUCI">
+					<h2>University of California, Irvine</h2>
+					<h3><strong>Summer Research Academy, 2012</strong></h3>
+					<div class="eduUCIDescription">
+						<p>Conducted Immunohistochemistry (IHC) and Western Blot samples and Western Blot to detect the presence of ubiquitin in the bicep cells of mice diagnosed with Inclusion Body Myopathy associated with Paget's disease.</p>
 					</div>
 				</div>
 
-			<div>
-				<img src="images/me.jpg" alt="A Photo of Me!" width=40% >
+				<br>
+				<br>
+
+					<h2>Northwood High School</h2>
+					<h3><strong>Class of 2014</strong></h3>
+					<p>GPA: 4.0/4.0, SAT: 2350/2400</p>
+					
+					<br>
+
+		    		<h3><b>Honors and Awards:<b></h3>
+					<ul>
+						<li>US Biology Olympiad Semifinalist, 2013</li>
+						<li>Congressional Award Gold Medal, 2013</li>
+						<li>National Merit Scholarship Finalist, 2013</li>
+						<li>AP Scholar with Distinction, 2013</li>
+						<li>Most Outstanding Musician Award, 2013</li>
+						<li>Exchange Club Youth of the Month, May 2013</li>
+						<li>National History Day National Competition Finalist, 2012</li>
+						<li>National History Day CA State Finalist, 2012</li>
+						<li>Presidential Volunteer Service Gold Level Award, 2012</li>
+						<li>MENSA, 2012 - present</li>
+						<li>Young Naturalist Award Semifinalist, 2011</li>
+					</ul>
+		</div> 
+    </div> 
+	
+	
+   <div id="experience">
+		<div class="content">
+			<div id="logoexperience">
+				<img src="img/suitcase.ico" width=90px fixed align="left"/>
 			</div>
-			
-			<div class="intro">
-				<div class="helloworld">
-					<p>Thank you for visiting my site!</p>
+			<div id="titleexperience">
+				<h1>Experience</h1>
+			</div>
+				<hr>
+
+				<br>
+				
+				<h2>iOS Development Intern @ Waller Lab</h2>
+				<div class="dates">
+					<h3>May 2016 - August 2016</h3>
 				</div>
+				<p> Implemented openCV framework and conducted performance comparisons for 		CellScope mobile microscopy applications at Waller Lab, UC Berkeley. Application produces higher resolution images from raw pixel data acquired in mobile device by the CellScope microscope via Bluetooth. </p>
 
-				<p>My name is Taehyung, but my friends call me Kevin. I'm currently a 3rd year undergraduate student at UC Berkeley pursuing a Bachelor's degree Electrical Engineering and Computer Science. I'm really passionate about studying Computer Science, as I believe that one's code reflects his or her take on    love to learn new things each and every day, and mostly spend my free time dancing, playing basketball, or hanging out with friends.</p>
+				<br>
 
-				<p>This is a personal "about me" website that I have developed from scratch using HTML and CSS, and built using Jekyll and hosted on Github Pages. Thank you for visiting and hopefully you can learn something new about me!</p>
+				<h2>CS 61B Lab Assistant @ UC Berkeley</h2>
+				<div class="dates">
+					<h3>August 2015 - May 2016</h3>
+				</div>
+				<p> Responsible for assisting students in grasping key concepts of data structures, sorting algorithms, runtimes, and basic software engineering concepts, as well as answering project or lab-related questions. </p>
 
+				<br>
+
+				<h2>Software Development Intern @ Hyundai Capital America</h2>
+				<div class="dates">
+					<h3>May - June 2015</h3>
+				</div>
+				<p> Assisted the transition from manual check sampling to an electronic auditing system. Expedited the audit procedure through more efficient check sampling, lease and retail void processing, and flat cancel and re-book tracking. </p>
+				
+				<br>
+
+				<h2>Research Assistant @ USC Keck School of Medicine</h2>
+				<div class="dates">
+					<h3>June - August 2015</h3>
+				</div>
+				<p>Research assistant under Dr. Keigo Machida in a microbiology/immunology laboratory studying molecular oncogenesis, the mechanism of carcinogenesis through cancer stem cells, using mouse models associated with the hepatitis virus.</p>
+
+				<br>
+
+				<h2>Founder, President @ STORM</h2>
+				<div class="dates">
+					<h3>July 2013 - May 2014</h3>
+				</div>
+				<p>Founded Science and Technology Out-Reach Mission (STORM), a student run organization at the Discovery Science Center with the purpose of inspiring young students to pursue careers in the STEM fields by making resources and opportunities available to elementary students of all social classes and genders.</p>
+				<p>Through a partnership with Fremont Elementary School and a $500 grant from Kia Motors America, we coordinated hands-on science experiments and engineering projects for the students on a weekly basis.</p>
+		</div> 
+    </div> 
+	
+	
+	<div id="projects">
+		<div class="content">
+        	<div id="logoprojects">
+				<img src="img/rocket.jpg" width=100px height=100px fixed align="left"/>
+			</div>
+			<div id="titleprojects">
+				<h1>Projects</h1>
 			</div>
 
+			<hr>
+
+			<br>
+
+			<div class="resume">
+					<img src="img/apptrak.png" alt="AudioPractice1" width="300" align="right">
+					<h2>App Track <a href="https://c9.io/kevintaehyungkim/apptrak" target="_blank">(Repo)</a> </h2>
+				</div>
+				<div class="languages">
+					<p>Ruby on Rails, HTML5, CSS3, jQuery, Javascript</p>
+				</div>
+				<!-- <img src="images/apptrak.png" alt="AudioPractice1" width="450" align="right"> -->
+				<p style="width:55%"> App Track is a web application that allows users to effectively track and organize all of their applications, created during the CSUA Hackathon 2016 at UC Berkeley. Whether it be college or job applications, App Trak provides a user database where each individual can sort their applications by date and status, and allows the user to search for particular names in case the list grows very long. </p>
+
+				<br>
+
+				<div class="resume">
+					<h2>Distance-Vector Routing <a href="https://github.com/kevintaehyungkim/Distance-Vector-Routing-Protocol" target="_blank">(Repo)</a> </h2>
+				</div>
+				<div class="languages">
+					<p>Python</p>
+				</div>
+				<p>Utilizes learning switches and distance-vector routers to transport packets to destinations efficiently while accounting for dynamic network topology updates. Implements features similar to Routing Information Protocol. Coded in Python. </p>
+
+				<br>
+
+				<div class="resume">
+					<h2>Chat <a href="https://github.com/kevintaehyungkim/Chat-Server" target="_blank">(Repo)</a> </h2>
+				</div>
+				<div class="languages">
+					<p>Python</p>
+				</div>
+				<p>Created a chat server via the Python socket library that allows users to converse in different channels. Clients can create/join different channels, and messages are relayed to all other members of a particular channel.</p>
+				
+				<br>
+
+				<div class="resume">
+					<h2>kevintaehyungkim.com <a href="https://github.com/kevintaehyungkim/kevintaehyungkim.github.io" target="_blank">(Repo)</a> </h2>
+				</div>
+				<div class="languages">
+					<p>HTML5, CSS3, Javascript, jQuery</p>
+				</div>
+				<p>My personal "about me" website that I have developed from scratch using HTML and CSS. Built using Jekyll and hosted on Github Pages.</p>
+
+				<br>
+
+				<h2>AudioPractice (September 2016 - Present)</h2>
+				<div class="languages">
+					<p>Swift, Objective-C</p>
+				</div>
+				<img src="img/audiopractice.png" alt="AudioPractice1" width="300">
+				<p> Developing an iOS application designed to help dancers practice more efficiently through tempo and pitch control, markers to loop particular sections of music, and basic mixing of soundtracks. </p>
+
+				<br>
+
+				<h2>CellScope</h2>
+				<div class="languages">
+					<p>Objective-C, C++</p>
+				</div>
+				<p> Developed the iOS version of CellScope mobile microscopy application that produces higher resolution images from raw pixel data acquired made available with iOS 10. I utilized openCV framework, implemented Fourier Transform algorithms, coded Bluetooth features, and conducted performance comparisons. </p>
+
+				<br>
+
+				<h2>HARBOR on Apache Hadoop</h2>
+				<div class="languages">
+					<p>Java</p>
+				</div>
+				<p> Given an abundance of page requests, matched request/reply pairs to construct Query Focused Dataset objects that were ultimately serialized into Hadoop File System. Coded in Java. </p>
+
+				<br>
+
+				<div class="resume">
+					<h2>Depth Map Performance Optimization <a href="https://github.com/kevintaehyungkim/depth-map-optimization" target="_blank">(Repo)</a> </h2>
+				</div>
+				<div class="languages">
+					<p>C</p>
+				</div>
+				<p> Developed a depth map using C that works with 8-bit grayscale bitmap images, and used techniques such as SIMD, OpenMP, and loop unrolling to optimize performance.</p>
+
+				<br>
+
+				<div class="resume">
+					<h2>32-bit Two Cycle Processor <a href="https://github.com/kevintaehyungkim/32-bit-cpu" target="_blank">(Repo)</a> </h2>
+				</div>
+				<div class="languages">
+					<p>Logisim</p>
+				</div>
+				<img src="img/cpu1.png" alt="AudioPractice1" height="500">
+				<p>Created a 32-bit two-cycle pipelined processor implemented via Logisim.</p>
+				
+				<br>
+
+				<div class="resume">
+					<h2>MIPS Assembler and Linker <a href="https://github.com/kevintaehyungkim/mips-assembler-and-linker" target="_blank">(Repo)</a> </h2>
+				</div>
+				<div class="languages">
+					<p>C, MIPS</p>
+				</div>
+				<p>Created a two-pass assembler that translates MIPS instruction sets to machine code using C, and a linker that processes object files passed from the assembler to generate an executable file via MIPS. </p>
+
+				<br>
+
+				<div class="resume">
+					<h2>Gitlet <a href="https://github.com/kevintaehyungkim/gitlet" target="_blank">(Repo)</a> </h2>
+				</div>
+				<div class="languages">
+					<p>Java</p>
+				</div>
+				<p> Created a smaller version of the Git control system that mimics certain features such as: add, commit, branch, checkout, merge, rebase, log. Coded in Java.</p>
+
+				<br>
+
+				<div class="resume">
+					<h2>Modern Checkers <a href="https://github.com/kevintaehyungkim/modern-checkers" target="_blank">(Repo)</a> </h2>
+				<div class="languages">
+					<p>Java</p>
+				</div>
+				</div>
+				<img src="img/checkers1.png" width="250">
+				<img src="img/checkers2.png" width="250">
+				<img src="img/checkers3.png" width="250">
+				<p>Created a two-player game of Checkers with a slight twist by introducing two new pieces: Bomb and Shield. Coded in Java, with implementations of the StdDraw library from Princeton University.</p>
+
+				<br>
+
+				<h2>Scheme Interpreter</h2>
+				<div class="languages">
+					<p>Python</p>
+				</div>
+				<p>Created a program that parses/reads code written in Scheme and evaluates the code recursively using Python. </p>
+
+				<br>
+
+				<div class="resume">
+					<h2>Ants v Bees <a href="https://github.com/kevintaehyungkim/modern-checkers" target="_blank">(Repo)</a> </h2>
+				<div class="languages">
+					<p>Python</p>
+				</div>
+				</div>
+				<img src="img/antsvsbees.png" alt="Checkers1" height="300">
+				<p>A game inspired by the popular Plants vs Zombies, where the user populates the ant colony with a variety of different ants to defend the queen against the bees. Coded in Python.</p>
+		</div> 
+    </div> 
+	
+	
+	<div id="extracurriculars">
+		<div class="content">
+            <div id="logoextracurriculars">
+				<img src="img/music.png" width=100px height=100px fixed align="left"/>
+			</div>
+			<div id="titleextracurriculars">
+				<h1>Extracurriculars</h1>
+			</div>
+
+				<hr>
+				
+				<h2>Main Stacks Competitive Dance Team</h2>
+				<div class="dates">
+					<h3>September 2016 - present</h3>
+				</div>
+				<p>Main Stacks is UC Berkeley's premier non-profit and competitive urban dance team. Created in January 2008, Main Stacks holds monthly dance classes open to the public, and competes at major competitions across California. As the host of Prelude Norcal, one of the largest hip-hop competitions in Northern California, since 2010, we are preparing a set to present to the greater dance community. The below video is our performance from Prelude Norcal 2016. Stay tuned for more videos!</p>
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/CxGB_aH2Eok" frameborder="0" allowfullscreen></iframe>
+
+				<br>
+
+				<h2>Truelement Dance Team</h2>
+				<div class="dates">
+					<h3>Summer 2016</h3>
+				</div>
+				<p>Truelement is an exhibition team at UC Berkeley that focuses on urban hip-hop style dance. Our summer team created and performed our set at Complex Dance Competition 2016.</P>
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/OuxK2f-uVMs" frameborder="0" allowfullscreen></iframe>
+
+				<br>
+
+				<h2>Identity X Competitive Dance Team</h2>
+				<div class="dates">
+					<h3>September 2015 - January 2016</h3>
+				</div>
+				<p>Identity X is a UC Berkeley competitive dance team created in Fall 2013. We competed at various competitions around CA, including Prelude Norcal, Maxt Out Dance Competition, and Bridge Dance Competition. Check out our set from Bridge SoCal 2015!</P>
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/DU9OJUKCDdo" frameborder="0" allowfullscreen></iframe>
+
+				<br>
+
+				<h2>AFX Dance</h2>
+				<div class="dates">
+					<h3>January 2015 - May 2016</h3>
+				</div>
+				<p>AFX Dance is a hip-hop dance organization founded in Fall 2011 at UC Berkeley. I was involved in several teams: SK Modern (Fall 2015), Kryan (Summer 2015), and MaWang (Spring 2016). </p>
+				
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/KlXjQjuojOk" frameborder="0" allowfullscreen></iframe>
+				
+				<br>
+
+				<h2>Orange County Youth Symphony Orchestra</h2>
+				<div class="dates">
+					<h3>September 2011 - May 2013</h3>
+				</div>
+				<p>The mission of the Orange County Youth Symphony Orchestra is to provide pre-professional training to Orange County’s most talented young musicians through varied performance opportunities, and by establishing an environment that develops creative ability, self-expression and the desire for perfection. As principal flutist, I participated in the orchestra from 2011 to 2013, participating in several performances and concerts in Southern California, and most notably taking part in the "Concert for Fifth Graders" series hosted by the Philharmonic Society, which aims to provide free musical education to underprivileged students around California. Check out some of our performances here!</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/RFemBEGLfFg" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/KvYtDaQk6Hc" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/oWFbpApx384" frameborder="0" allowfullscreen></iframe>
+				<br/>
+				<br/>
+			</section>
 		</div>
+	</div>
+
+
+	<div id="contact">
+		<div class="content">
+
+			<div id="logocontact">
+				<img src="img/telephone.png" height=85px fixed align="left"/>
+			</div>
+			<div id="titlecontact">
+				<h1>Contact</h1>
+			</div>
+
+			<hr>
+
+			<div class="mycaption">
+				<p> Here are some of the ways to reach me. I will respond as soon as I can!</p>
+			</div>
+			<ul>
+				<li><strong>Phone: </strong>+1 949 800 9025</li>
+				<li><strong>Email: </strong>kevin3238@berkeley.edu</li>
+				<li><a target="_blank" href="https://github.com/kevintaehyungkim">Github</a></li>
+				<li><a target="_blank" href="https://linkedin.com/in/kevintaehyungkim">LinkedIn</a></li>					
+				<li><a target="_blank" href="https://www.facebook.com/kevin.kim.33865">FaceBook</a></li>
+			</ul>
+		</div>
+	</div> 
 		
-	</body>
 
-</div>
+    </div> 
 
+</body>
 </html>
