@@ -49,7 +49,8 @@ $(document).ready(function() {
 
 <nav id="nav">
 	<ul>
-		<li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
+		<li><a href="#home" class="active" title="Next Section" >Home</a></li>
+		<li><a href="#about" title="Next Section">About</a></li>
 		<li><a href="#education" title="Next Section">Education</a></li>
 		<li><a href="#experience" title="Next Section">Experience</a></li>
 		<li><a href="#projects" title="Next Section">Projects</a></li>
@@ -61,10 +62,28 @@ $(document).ready(function() {
 </header>	
 
 	
-	<div id="slide1">
+	<div id="home">
 		<div class="content">
             <h1>Taehyung (Kevin) Kim</h1>
 		    <h2>Software Engineer and Aspiring Entrepreneur</h2>
+			
+			<header id="header2">
+			<nav id="nav2">
+				<ul>
+					<li><a href="#about" class="active" title="Next Section">Start Here</a></li>
+				</ul>
+			</nav>
+			</header>
+
+		</div> 
+    </div> 
+
+    <div id="about">
+		<div class="content">
+			<img src="img/me.jpg" width=330px fixed align="left"/>
+		    <h2 style="margin-left: 355px">Welcome to my Personal Webpage!</h2>
+			<h3 style="margin-left: 355px">My name is Taehyung (Kevin) Kim, a third-year undergraduate student studying Electrical Engineering and Computer Science (EECS) at UC Berkeley. I love to code - I believe one's code represents his or her artistic outlook on technology, and as someone who appreciates both technology and the arts I cannot think of a better passion to pursue. When I find free time, I love dancing, playing basketball, and hanging out with friends. Thank you for visiting!
+
 		</div> 
     </div> 
 
@@ -176,7 +195,7 @@ $(document).ready(function() {
 					<h2>University of California, Los Angeles</h2>
 					<h3><strong>Stem Cell Summer Institute, 2013</strong></h3>
 					<div class="eduUCLADescription">
-						<p>Explored the developmental biology of stem cells in mice and humans, and overviewed the important functional differences between embryonic, hematopoietic, and adult stem cells as well as the differences in their biomedical potentials.</p>
+						<p style="width:60%">Explored the developmental biology of stem cells in mice and humans, and overviewed the important functional differences between embryonic, hematopoietic, and adult stem cells as well as the differences in their biomedical potentials.</p>
 					</div>
 
 					<br>
@@ -195,7 +214,7 @@ $(document).ready(function() {
 					<h2>University of California, Irvine</h2>
 					<h3><strong>Summer Research Academy, 2012</strong></h3>
 					<div class="eduUCIDescription">
-						<p>Conducted Immunohistochemistry (IHC) and Western Blot samples and Western Blot to detect the presence of ubiquitin in the bicep cells of mice diagnosed with Inclusion Body Myopathy associated with Paget's disease.</p>
+						<p style="width:60%">Conducted Immunohistochemistry (IHC) and Western Blot samples and Western Blot to detect the presence of ubiquitin in the bicep cells of mice diagnosed with Inclusion Body Myopathy associated with Paget's disease.</p>
 					</div>
 				</div>
 
@@ -294,7 +313,7 @@ $(document).ready(function() {
 			<br>
 
 			<div class="resume">
-					<img src="img/apptrak.png" alt="AudioPractice1" width="300" align="right">
+					<img src="img/apptrak.png" alt="AudioPractice1" width="350" align="right">
 					<h2>App Track <a href="https://c9.io/kevintaehyungkim/apptrak" target="_blank">(Repo)</a> </h2>
 				</div>
 				<div class="languages">
@@ -311,7 +330,7 @@ $(document).ready(function() {
 				<div class="languages">
 					<p>Python</p>
 				</div>
-				<p>Utilizes learning switches and distance-vector routers to transport packets to destinations efficiently while accounting for dynamic network topology updates. Implements features similar to Routing Information Protocol. Coded in Python. </p>
+				<p style="width:80%">Utilizes learning switches and distance-vector routers to transport packets to destinations efficiently while accounting for dynamic network topology updates. Implements features similar to Routing Information Protocol. Coded in Python. </p>
 
 				<br>
 
@@ -321,7 +340,7 @@ $(document).ready(function() {
 				<div class="languages">
 					<p>Python</p>
 				</div>
-				<p>Created a chat server via the Python socket library that allows users to converse in different channels. Clients can create/join different channels, and messages are relayed to all other members of a particular channel.</p>
+				<p style="width:80%">Created a chat server via the Python socket library that allows users to converse in different channels. Clients can create/join different channels, and messages are relayed to all other members of a particular channel.</p>
 				
 				<br>
 
@@ -331,16 +350,16 @@ $(document).ready(function() {
 				<div class="languages">
 					<p>HTML5, CSS3, Javascript, jQuery</p>
 				</div>
-				<p>My personal "about me" website that I have developed from scratch using HTML and CSS. Built using Jekyll and hosted on Github Pages.</p>
+				<p style="width:80%">My personal "about me" website that I have developed from scratch using HTML and CSS. Built using Jekyll and hosted on Github Pages.</p>
 
 				<br>
 
-				<h2>AudioPractice (September 2016 - Present)</h2>
+				<h2>AudioPractice</h2>
 				<div class="languages">
 					<p>Swift, Objective-C</p>
 				</div>
 				<img src="img/audiopractice.png" alt="AudioPractice1" width="300">
-				<p> Developing an iOS application designed to help dancers practice more efficiently through tempo and pitch control, markers to loop particular sections of music, and basic mixing of soundtracks. </p>
+				<p style="width:80%"> Developing an iOS application designed to help dancers practice more efficiently through tempo and pitch control, markers to loop particular sections of music, and basic mixing of soundtracks. </p>
 
 				<br>
 
@@ -348,7 +367,7 @@ $(document).ready(function() {
 				<div class="languages">
 					<p>Objective-C, C++</p>
 				</div>
-				<p> Developed the iOS version of CellScope mobile microscopy application that produces higher resolution images from raw pixel data acquired made available with iOS 10. I utilized openCV framework, implemented Fourier Transform algorithms, coded Bluetooth features, and conducted performance comparisons. </p>
+				<p style="width:80%"> Developed the iOS version of CellScope mobile microscopy application that produces higher resolution images from raw pixel data acquired made available with iOS 10. I utilized openCV framework, implemented Fourier Transform algorithms, coded Bluetooth features, and conducted performance comparisons. </p>
 
 				<br>
 
@@ -356,7 +375,7 @@ $(document).ready(function() {
 				<div class="languages">
 					<p>Java</p>
 				</div>
-				<p> Given an abundance of page requests, matched request/reply pairs to construct Query Focused Dataset objects that were ultimately serialized into Hadoop File System. Coded in Java. </p>
+				<p style="width:80%"> Given an abundance of page requests, matched request/reply pairs to construct Query Focused Dataset objects that were ultimately serialized into Hadoop File System. Coded in Java. </p>
 
 				<br>
 
@@ -366,7 +385,7 @@ $(document).ready(function() {
 				<div class="languages">
 					<p>C</p>
 				</div>
-				<p> Developed a depth map using C that works with 8-bit grayscale bitmap images, and used techniques such as SIMD, OpenMP, and loop unrolling to optimize performance.</p>
+				<p style="width:80%"> Developed a depth map using C that works with 8-bit grayscale bitmap images, and used techniques such as SIMD, OpenMP, and loop unrolling to optimize performance.</p>
 
 				<br>
 
@@ -377,7 +396,7 @@ $(document).ready(function() {
 					<p>Logisim</p>
 				</div>
 				<img src="img/cpu1.png" alt="AudioPractice1" height="500">
-				<p>Created a 32-bit two-cycle pipelined processor implemented via Logisim.</p>
+				<p style="width:80%">Created a 32-bit two-cycle pipelined processor implemented via Logisim.</p>
 				
 				<br>
 
@@ -387,7 +406,7 @@ $(document).ready(function() {
 				<div class="languages">
 					<p>C, MIPS</p>
 				</div>
-				<p>Created a two-pass assembler that translates MIPS instruction sets to machine code using C, and a linker that processes object files passed from the assembler to generate an executable file via MIPS. </p>
+				<p style="width:80%">Created a two-pass assembler that translates MIPS instruction sets to machine code using C, and a linker that processes object files passed from the assembler to generate an executable file via MIPS. </p>
 
 				<br>
 
@@ -397,7 +416,7 @@ $(document).ready(function() {
 				<div class="languages">
 					<p>Java</p>
 				</div>
-				<p> Created a smaller version of the Git control system that mimics certain features such as: add, commit, branch, checkout, merge, rebase, log. Coded in Java.</p>
+				<p style="width:80%"> Created a smaller version of the Git control system that mimics certain features such as: add, commit, branch, checkout, merge, rebase, log. Coded in Java.</p>
 
 				<br>
 
@@ -410,7 +429,7 @@ $(document).ready(function() {
 				<img src="img/checkers1.png" width="250">
 				<img src="img/checkers2.png" width="250">
 				<img src="img/checkers3.png" width="250">
-				<p>Created a two-player game of Checkers with a slight twist by introducing two new pieces: Bomb and Shield. Coded in Java, with implementations of the StdDraw library from Princeton University.</p>
+				<p style="width:80%">Created a two-player game of Checkers with a slight twist by introducing two new pieces: Bomb and Shield. Coded in Java, with implementations of the StdDraw library from Princeton University.</p>
 
 				<br>
 
@@ -418,7 +437,7 @@ $(document).ready(function() {
 				<div class="languages">
 					<p>Python</p>
 				</div>
-				<p>Created a program that parses/reads code written in Scheme and evaluates the code recursively using Python. </p>
+				<p style="width:80%">Created a program that parses/reads code written in Scheme and evaluates the code recursively using Python. </p>
 
 				<br>
 
@@ -449,49 +468,76 @@ $(document).ready(function() {
 				<div class="dates">
 					<h3>September 2016 - present</h3>
 				</div>
-				<p>Main Stacks is UC Berkeley's premier non-profit and competitive urban dance team. Created in January 2008, Main Stacks holds monthly dance classes open to the public, and competes at major competitions across California. As the host of Prelude Norcal, one of the largest hip-hop competitions in Northern California, since 2010, we are preparing a set to present to the greater dance community. The below video is our performance from Prelude Norcal 2016. Stay tuned for more videos!</p>
+				<p style="width:80%">Main Stacks is UC Berkeley's premier non-profit and competitive urban dance team. Created in January 2008, Main Stacks holds monthly dance classes open to the public, and competes at major competitions across California. As the host of Prelude Norcal, one of the largest hip-hop competitions in Northern California, since 2010, we are preparing a set to present to the greater dance community. The below video is our performance from Prelude Norcal 2016. Stay tuned for more videos!</p>
 
+				<br>
+	
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/CxGB_aH2Eok" frameborder="0" allowfullscreen></iframe>
 
+				<br>
+				<br>
 				<br>
 
 				<h2>Truelement Dance Team</h2>
 				<div class="dates">
 					<h3>Summer 2016</h3>
 				</div>
-				<p>Truelement is an exhibition team at UC Berkeley that focuses on urban hip-hop style dance. Our summer team created and performed our set at Complex Dance Competition 2016.</P>
-
+				<p style="width:80%">Truelement is an exhibition team at UC Berkeley that focuses on urban hip-hop style dance. Our summer team created and performed our set at Complex Dance Competition 2016.</P>
+				
+				<br>
+				
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/OuxK2f-uVMs" frameborder="0" allowfullscreen></iframe>
 
+				<br>
+				<br>
 				<br>
 
 				<h2>Identity X Competitive Dance Team</h2>
 				<div class="dates">
 					<h3>September 2015 - January 2016</h3>
 				</div>
-				<p>Identity X is a UC Berkeley competitive dance team created in Fall 2013. We competed at various competitions around CA, including Prelude Norcal, Maxt Out Dance Competition, and Bridge Dance Competition. Check out our set from Bridge SoCal 2015!</P>
+				<p style="width:80%">Identity X is a UC Berkeley competitive dance team created in Fall 2013. We competed at various competitions around CA, including Prelude Norcal, Maxt Out Dance Competition, and Bridge Dance Competition. Check out our set from Bridge SoCal 2015!</P>
+					
+				<br>
 
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/DU9OJUKCDdo" frameborder="0" allowfullscreen></iframe>
 
+				<br>
+				<br>
 				<br>
 
 				<h2>AFX Dance</h2>
 				<div class="dates">
 					<h3>January 2015 - May 2016</h3>
 				</div>
-				<p>AFX Dance is a hip-hop dance organization founded in Fall 2011 at UC Berkeley. I was involved in several teams: SK Modern (Fall 2015), Kryan (Summer 2015), and MaWang (Spring 2016). </p>
+				<p style="width:80%">AFX Dance is a hip-hop dance organization founded in Fall 2011 at UC Berkeley. I was involved in several teams: SK Modern (Fall 2015), Kryan (Summer 2015), and MaWang (Spring 2016). </p>
 				
+				<br>
+
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/KlXjQjuojOk" frameborder="0" allowfullscreen></iframe>
 				
+				<br>
+				<br>
 				<br>
 
 				<h2>Orange County Youth Symphony Orchestra</h2>
 				<div class="dates">
 					<h3>September 2011 - May 2013</h3>
 				</div>
-				<p>The mission of the Orange County Youth Symphony Orchestra is to provide pre-professional training to Orange County’s most talented young musicians through varied performance opportunities, and by establishing an environment that develops creative ability, self-expression and the desire for perfection. As principal flutist, I participated in the orchestra from 2011 to 2013, participating in several performances and concerts in Southern California, and most notably taking part in the "Concert for Fifth Graders" series hosted by the Philharmonic Society, which aims to provide free musical education to underprivileged students around California. Check out some of our performances here!</p>
+				<p style="width:80%">The mission of the Orange County Youth Symphony Orchestra is to provide pre-professional training to Orange County’s most talented young musicians through varied performance opportunities, and by establishing an environment that develops creative ability, self-expression and the desire for perfection. As principal flutist, I participated in the orchestra from 2011 to 2013, participating in several performances and concerts in Southern California, and most notably taking part in the "Concert for Fifth Graders" series hosted by the Philharmonic Society, which aims to provide free musical education to underprivileged students around California. Check out some of our performances here!</p>
+				
+				<br>
+
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/RFemBEGLfFg" frameborder="0" allowfullscreen></iframe>
+
+				<br>
+				<br>
+
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/KvYtDaQk6Hc" frameborder="0" allowfullscreen></iframe>
+
+				<br>
+				<br>
+
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/oWFbpApx384" frameborder="0" allowfullscreen></iframe>
 				<br/>
 				<br/>
@@ -513,7 +559,7 @@ $(document).ready(function() {
 			<hr>
 
 			<div class="mycaption">
-				<p> Here are some of the ways to reach me. I will respond as soon as I can!</p>
+				<h3> Here are some of the ways to reach me. I will respond as soon as I can!</h3>
 			</div>
 			<ul>
 				<li><strong>Phone: </strong>+1 949 800 9025</li>

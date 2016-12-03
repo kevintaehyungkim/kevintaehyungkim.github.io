@@ -101,7 +101,7 @@ a.rpanel:hover{ color: #fff; }
 
 #header { 
 	width: 100%; 
-	height: 60px; 	
+	height: 50px; 	
 	position: fixed;
 	margin-top: 0px;
 	background-color: black;
@@ -109,7 +109,7 @@ a.rpanel:hover{ color: #fff; }
 	overflow: hidden;
 }
 
-#nav { width:800px; float: right; margin-top: 12px; }
+#nav { width:800px; float: right; margin-top: 6px; }
 #logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: lighter; }
 #nav ul{
 	list-style: none;
@@ -120,12 +120,27 @@ a.rpanel:hover{ color: #fff; }
 #nav li{
 	margin-top: 9px;	
 	float: left;
-	padding-left: 35px;
+	padding-left: 28px;
 }
 
-#nav li a { color: white; font-size: 16px; text-decoration: none; font-family: 'Arvo'; }
+#nav li a { color: white; font-size: 15px; text-decoration: none; font-family: 'Arvo'; }
 #nav li a.active { color: white; opacity:1; border-bottom: 2px ; text-decoration: none}
 #nav li a:hover { color: #D5F7FF; opacity:1; }
+
+#nav2 ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+}
+
+#nav2 li{
+	margin-top: 70px;	
+	float: center;
+	padding: 30px 0 100px 380px;
+}
+
+#nav2 li a { color: #F6FF87; font-size: 22px; text-decoration: none; font-family: 'Arvo'; }
+#nav2 li a:hover { color: white; opacity:1; }
 
 
 /*= BUTTONS
@@ -154,9 +169,9 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 /*= SLIDES STYLING
 --------------------------------------------------------*/
 
-#slide1, #slide2{ width: 100%; }
+#home, #about{ width: 100%; }
 
-#slide1{
+#home {
 	background:url('../img/sf.png') 10% 0 no-repeat;
 	color: #fff;
 	height: 500px;
@@ -166,8 +181,26 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background-size: cover;
 }
 
-#slide1 h2{
+#home h2{
 	text-align: center;
+}
+
+#about {
+	background:url('../img/blue.png') 10% 0 no-repeat;
+	color: black;
+	height: 500px;
+	width: 100%;
+	margin: 0;
+	padding: 150px 0 260px 0;
+	background-size: cover;
+}
+
+#about h1,h2 {
+	text-align: center;
+}
+
+#about h3 {
+	font-size: 15px;
 }
 
 #education {
@@ -175,7 +208,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background-size: cover;
 	/*background-color: #fff;*/
 	color: #333333;
-	height: 1600px;
+	height: 1650px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 90px 0;
@@ -183,7 +216,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #logoedu {
-	margin-left: 230px;
+	margin-left: 210px;
 }
 
 #education h1, h2 {
@@ -209,11 +242,11 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #logoexperience {
-	margin-left: 215px;
+	margin-left: 220px;
 }
 
 #titleexperience {
-	margin-left: 330px;
+	margin-left: 335px;
 }
 
 #experience hr {
@@ -226,7 +259,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	/*background:url('../img/night2.jpg') 20% 0 no-repeat;
 	background-size: cover;*/
 	color: white;
-	height: 3800px;
+	height: 3900px;
 	padding: 90px 0;
 }
 
@@ -256,12 +289,12 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #projects a:hover { color: yellow; opacity:1; text-decoration: underline;}
 
 #extracurriculars{
-	background:url('../img/green.png') 20% 0 no-repeat;
+	background:url('../img/subtle.png') 100% 0 no-repeat;
 	background-size: cover;
-	height: 3200px;
+	height: 3450px;
 	margin: 0 auto;
 	padding: 90px 0;
-	color: white;
+	color: black;
 }
 
 #extracurriculars h1, h2 {
@@ -277,14 +310,14 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #extracurriculars hr {
-	color: white; /* old IE */
-    background-color: white; /* Modern Browsers */
+	color: black; /* old IE */
+    background-color: black; /* Modern Browsers */
 }
 
 #contact{
-	background:url('../img/city.png') 100% 0 no-repeat;
+	background:url('../img/bg1.jpg') 10% 0 no-repeat;
 	background-size: cover;
-	height: 600px;
+	height: 500px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 90px 0;
@@ -307,6 +340,9 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #titlecontact {
 	margin-left: 375px;
 }
+
+#contact a { color: purple; font-size: 14px; text-decoration: none; font-family: 'Arvo'; }
+#contact a:hover { color: purple; opacity:1; text-decoration: underline;}
 
 
 /*= FOOTER 
