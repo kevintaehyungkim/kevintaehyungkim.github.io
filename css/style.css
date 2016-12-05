@@ -1,11 +1,3 @@
-/*
-Theme Name: Simple Parallax Website
-Description: Simple Parallax Scrolling Effect
-Author: Samuel Dalusung
-*/
-
-/*= GENERAL STYLING
---------------------------------------------------------*/
 
 body{
 	margin: 0;
@@ -255,9 +247,9 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #projects {
-	background-color: #0C233F;
-	/*background:url('../img/night2.jpg') 20% 0 no-repeat;
-	background-size: cover;*/
+/*	background-color: #0C233F;*/
+	background:url('../img/dark.jpg') 25% 0 no-repeat;
+	background-size: cover;
 	color: white;
 	height: 3900px;
 	padding: 90px 0;
@@ -315,7 +307,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #contact{
-	background:url('../img/bg1.jpg') 10% 0 no-repeat;
+	background:url('../img/city2.png') 10% 0 no-repeat;
 	background-size: cover;
 	height: 800px;
 	width: 100%;
@@ -334,11 +326,11 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #logocontact {
-	margin-left: 255px;
+	margin-left: 245px;
 }
 
 #titlecontact {
-	margin-left: 375px;
+	margin-left: 365px;
 }
 
 #contact a { color: purple; font-size: 14px; text-decoration: none; font-family: 'Arvo'; }
