@@ -183,7 +183,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	height: 500px;
 	width: 100%;
 	margin: 0;
-	padding: 150px 0 260px 0;
+	padding: 200px 0 260px 0;
 	background-size: cover;
 }
 
@@ -307,22 +307,27 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #contact{
-	background:url('../img/city2.png') 10% 0 no-repeat;
+	background:url('../img/blue_contact3.png') 10% 0 no-repeat;
 	background-size: cover;
-	height: 800px;
+	height: 700px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 90px 0;
-	color: black;
+	color: white;
 }
 
 #contact hr {
-	color: black; /* old IE */
-    background-color: black; /* Modern Browsers */
+	color: white; /* old IE */
+    background-color: white; /* Modern Browsers */
 }
 
 #contact h1, h2 {
 	text-align: left;
+}
+
+#contact h3 {
+	text-align: left;
+	font-size: 18px;
 }
 
 #logocontact {
@@ -333,8 +338,8 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	margin-left: 365px;
 }
 
-#contact a { color: purple; font-size: 14px; text-decoration: none; font-family: 'Arvo'; }
-#contact a:hover { color: purple; opacity:1; text-decoration: underline;}
+#contact a { color: orange; font-size: 14px; text-decoration: none; font-family: 'Arvo'; }
+#contact a:hover { color: orange; opacity:1; text-decoration: underline;}
 
 
 /*= FOOTER 
