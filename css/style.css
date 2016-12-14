@@ -164,7 +164,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #home, #about{ width: 100%; }
 
 #home {
-	background:url('../img/sf.png') 10% 0 no-repeat;
+	background:url('../img/sf.png') 10% 10% no-repeat;
 	color: #fff;
 	height: 500px;
 	width: 100%;
@@ -178,9 +178,9 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #about {
-	background:url('../img/blue.png') 10% 0 no-repeat;
-	color: black;
-	height: 500px;
+	background:url('../img/bg8.jpg') 10% 0 no-repeat;
+	color: white;
+	height: 450px;
 	width: 100%;
 	margin: 0;
 	padding: 200px 0 260px 0;
