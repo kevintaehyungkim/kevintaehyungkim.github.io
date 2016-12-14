@@ -93,7 +93,7 @@ a.rpanel:hover{ color: #fff; }
 
 #header { 
 	width: 100%; 
-	height: 50px; 	
+	height: 48px; 	
 	position: fixed;
 	margin-top: 0px;
 	background-color: black;
@@ -164,8 +164,8 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #home, #about{ width: 100%; }
 
 #home {
-	background:url('../img/sf.png') 10% 10% no-repeat;
-	color: #fff;
+	background:url('../img/bg5.jpg') 10% 10% no-repeat;
+	color: black;
 	height: 500px;
 	width: 100%;
 	margin: 0;
@@ -183,16 +183,18 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	height: 450px;
 	width: 100%;
 	margin: 0;
-	padding: 200px 0 260px 0;
+	padding: 180px 0 260px 0;
 	background-size: cover;
 }
 
 #about h1,h2 {
 	text-align: center;
+	font-weight: lighter;
 }
 
 #about h3 {
 	font-size: 15px;
+	font-weight: lighter;
 }
 
 #education {
@@ -307,18 +309,18 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #contact{
-	background:url('../img/blue_contact3.png') 10% 0 no-repeat;
+	background:url('../img/bg10.png') 100% 0 no-repeat;
 	background-size: cover;
-	height: 700px;
+	height: 550px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 90px 0;
-	color: white;
+	color: black;
 }
 
 #contact hr {
-	color: white; /* old IE */
-    background-color: white; /* Modern Browsers */
+	color: black; /* old IE */
+    background-color: black; /* Modern Browsers */
 }
 
 #contact h1, h2 {
@@ -338,8 +340,8 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	margin-left: 365px;
 }
 
-#contact a { color: orange; font-size: 14px; text-decoration: none; font-family: 'Arvo'; }
-#contact a:hover { color: orange; opacity:1; text-decoration: underline;}
+#contact a { color: red; font-size: 14px; text-decoration: none; font-family: 'Arvo'; }
+#contact a:hover { color: red; opacity:1; text-decoration: underline;}
 
 
 /*= FOOTER 
