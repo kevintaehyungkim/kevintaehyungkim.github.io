@@ -76,7 +76,7 @@ tr {
 
 hr {
 	border-top: 0px;
-	height: 2px;
+	height: 1px;
     /* Set the hr color */
 }
 
@@ -237,16 +237,26 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background-size: cover;
 }
 
-#experience h1, h2 {
+#experience h1 {
 	text-align: left;
 }
 
+#experience h2 {
+	text-align: left;
+	color: #FFC522;
+}
+
+#experience h3 {
+	text-align: left;
+	color: #D5F7FF;
+}
+
 #logoexperience {
-	margin-left: 210px;
+	margin-left: 200px;
 }
 
 #titleexperience {
-	margin-left: 325px;
+	margin-left: 315px;
 }
 
 #experience hr {
@@ -270,12 +280,14 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #projects h2 {
 	text-align: left;
-	color: #53D1ED;
+/*	color: #53D1ED;*/
+	color: #96E30B;
 }
 
 #projects h4 {
 	text-align: left;
-	color: #96E30B;
+/*	color: #96E30B;*/
+	color: #53D1ED;
 }
 
 
