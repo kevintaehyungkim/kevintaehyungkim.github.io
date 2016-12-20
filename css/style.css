@@ -256,17 +256,28 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #projects {
-/*	background-color: #0C233F;*/
-	background:url('../img/dark.jpg') 25% 0 no-repeat;
-	background-size: cover;
+	background-color: #1D1E1A;
+	/*background:url('../img/dark.jpg') 25% 0 no-repeat;
+	background-size: cover;*/
 	color: white;
 	height: 3800px;
 	padding: 90px 0;
 }
 
-#projects h1, h2 {
+#projects h1{
 	text-align: left;
 }
+
+#projects h2 {
+	text-align: left;
+	color: #53D1ED;
+}
+
+#projects h4 {
+	text-align: left;
+	color: #96E30B;
+}
+
 
 #projects a {
 	color: yellow;
@@ -287,20 +298,31 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
     border: 0;
 }
 
-#projects a { color: yellow; font-size: 24px; text-decoration: none; font-family: 'Arvo'; }
-#projects a:hover { color: yellow; opacity:1; text-decoration: underline;}
+#projects a { color: #F7005E; font-size: 24px; text-decoration: none; font-family: 'Arvo'; }
+#projects a:hover { color: #F7005E; opacity:1; text-decoration: underline;}
 
 #extracurriculars{
-	background:url('../img/zzzz.jpg') 80% 0 no-repeat;
-	background-size: cover;
+	/*background:url('../img/zzzz.jpg') 80% 0 no-repeat;
+	background-size: cover;*/
+	background-color: white;
 	height: 3800px;
 	margin: 0 auto;
 	padding: 90px 0;
 	color: black;
 }
 
-#extracurriculars h1, h2 {
+#extracurriculars h1{
 	text-align: left;
+}
+
+#extracurriculars h2 {
+	text-align: left;
+	color: #0078EC;
+}
+
+#extracurriculars h3 {
+	text-align: left;
+	color: orange;
 }
 
 #logoextracurriculars {
