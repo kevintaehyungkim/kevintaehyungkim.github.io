@@ -388,8 +388,8 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	margin-left: 350px;
 }
 
-#contact a { color: #15C94C; font-size: 14px; text-decoration: none; font-family: 'Arvo'; }
-#contact a:hover { color: #15C94C; opacity:1; text-decoration: underline;}
+#contact a { color: yellow; font-size: 14px; text-decoration: none; font-family: 'Arvo'; }
+#contact a:hover { color: yellow; opacity:1; text-decoration: underline;}
 
 
 /*= FOOTER 
