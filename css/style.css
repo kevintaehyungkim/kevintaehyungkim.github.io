@@ -7,7 +7,7 @@ body{
 
 h1 { 
     font-family:"Arvo";
-	font-weight:lighter;
+	font-weight:100;
 	font-size: 70px;
 	text-align: center;
 	margin: 0;
@@ -17,7 +17,7 @@ h1 {
 
 h2 {
    font-family:"Arvo";
-   font-weight: lighter;
+   font-weight: 100;
    font-size: 28px;
    text-align: center;
    margin: 0;
@@ -27,7 +27,7 @@ h2 {
 
 h3 {
     font-family: "Arvo";
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 16px;
 	margin: 5px 0;
 	padding: 0;
@@ -37,7 +37,7 @@ h3 {
 
 h4 {
     font-family: "Arvo";
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 14px;
     margin: 5px 0;
 	padding: 0;
@@ -47,7 +47,7 @@ h4 {
 
 p {
 	font-family: "Arvo";
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 14px;
     margin: 5px 0;
 	padding: 0;
@@ -57,7 +57,7 @@ p {
 
 ul {
     font-family: "Arvo";
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 14px;
     margin: 5px 18px;
 	padding: 0;
@@ -67,7 +67,7 @@ ul {
 
 tr {
     font-family: "Arvo";
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 16px;
     text-align: center;
     margin: 5px 0;
@@ -270,7 +270,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	/*background:url('../img/dark.jpg') 25% 0 no-repeat;
 	background-size: cover;*/
 	color: white;
-	height: 4100px;
+	height: 4550px;
 	padding: 90px 0;
 }
 
