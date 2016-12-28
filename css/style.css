@@ -55,6 +55,16 @@ p {
 	line-height: 150%;
 }
 
+/*a {
+	font-family: "Arvo";
+    font-weight: 100;
+    font-size: 14px;
+    margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	line-height: 150%;
+}*/
+
 ul {
     font-family: "Arvo";
     font-weight: 100;
@@ -115,7 +125,7 @@ a.rpanel:hover{ color: #fff; }
 	padding-left: 36px;
 }
 
-#nav li a { color: white; font-size: 13px; text-decoration: none; font-family: 'Arvo'; }
+#nav li a { color: white; font-size: 13px; text-decoration: none; font-family: 'Arvo'; font-weight: lighter;}
 #nav li a.active { color: white; opacity:1; border-bottom: 2px ; text-decoration: none}
 #nav li a:hover { color: #FFDB99; opacity:1; }
 
@@ -164,8 +174,8 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #home, #about{ width: 100%; }
 
 #home {
-	background:url('../img/city5.jpg') 10% 0 no-repeat;
-	color: white;
+	background:url('../img/sfmorning1.jpg') 30% 0 no-repeat;
+	color: black;
 	height: 500px;
 	width: 100%;
 	margin: 0;
